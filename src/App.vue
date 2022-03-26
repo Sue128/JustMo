@@ -1,21 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="登录"/>
-    <FailMobi shi="失败"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-//import SucessMobi from './components/SucessMobi.vue'
-import FailMobi from './components/FailMobi.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+// import SucessMobi from './components/SucessMobi.vue'
+// import FailMobi from './components/FailMobi.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    //SucessMobi,
-    FailMobi
+
   }
 }
 </script>
