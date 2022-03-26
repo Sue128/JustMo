@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="登录"/>
+    <FailMobi shi="失败"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+//import SucessMobi from './components/SucessMobi.vue'
+import FailMobi from './components/FailMobi.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    //SucessMobi,
+    FailMobi
   }
 }
 </script>
