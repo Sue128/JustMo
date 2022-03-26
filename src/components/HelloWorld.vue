@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>登录</h1>
   <el-form ref="form" :model="form">
     <el-form-item label="用户名" label-width="600px">
       <el-col :span="30">
